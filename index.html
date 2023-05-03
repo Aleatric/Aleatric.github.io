@@ -1,188 +1,137 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <!--CSS STYLES-->
-        <link rel="stylesheet" href="styles.css">
-        
-            <!--Favicons-->
-        <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="assets/icons/apple-touch-icon.png"/>
-        <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="assets/icon/favicon-32x32.png">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!---Animate CSS CDN--->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-        <title>Bradley Cronan | Web Developer</title>
-    </head>
+    <!--CSS STYLES-->
+    <link rel="stylesheet" href="styles.css">
 
-    <body>
-        <!-- Navbar -->
-        <nav>
-            <h1>Bradley Cronan</h1>
-            <ul class="navigation">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <button class="burger-menu" id="burger-menu">
-                <ion-icon class="bars" name="menu-outline"></ion-icon>
-            </button>
-        </nav>
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
 
-        <!-- Hero Section -->
-        <section class="hero" id="about">
-            <img
-              src="assets/photos/me.jpeg"
-              alt="bradley-cronan"
-              loading="lazy"
-              class="hero-img"
-            />
-            <div class="bio animate__animated animate__shakeX">
-              <h2 class="bio-title">About Me</h2>
-              <p class="bio-text">
+    <!---Animate CSS CDN--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Bradley Cronan | Web Developer</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Bradley Cronan</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img src="assets/photos/me.jpeg" alt="bradley-cronan" loading="lazy" class="hero-img" />
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
                 Hey, I'm Brad! I'm 26 years old
                 <br>
-                I self prompted a career change from music to tech a year ago. I'm studying to become a full-stack developer. <br> I'm confident with my front end development
-              </p>
-            </div>
-      </section>
-      
-        <!-- More about -->
-        <section class="more-about">
-            <h2>More About Me</h2>
-            <p>
-                I'm studying full-stack development through coding bootcamps (currently, <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>), and practical work. freeCodeCamp has given me lots of practical knowledge, and given me the opportunity to learn from professionals in the field, and create amazing projects
-                <br>
-                I'm currently studying a MERN stack, and would like to study other languages, like Java, Python, PHP, C#
+                I self prompted a career change from music to tech a year ago. I'm studying to become a full-stack
+                developer. <br> I'm confident with my front end development
             </p>
-            <p>
-                In my spare time I like to play/write music, practice Brazilian Jiu-Jitsu, and play games.
-            <p>
-                My long term goal with full-stack development, is to be able to write anything, without hesitation.
-            </p>
-        </section>
-
-        <!-- Skills section -->
-        <section class="skills" id="skills">
-            <h2 class="skill-header">My Top Skills</h2>
-
-            <div class="skills-wrapper">
-                <div class="first-set animate__animated animate__pulse">
-                    <img src="assets/icons/icons8-html-5.svg"
-                    alt=""
-                    loading="lazy"
-                    class="icon icon-card">
-
-                    <img
-                    src="assets/icons/icons8-css3.svg"
-                    alt=""
-                    loading="lazy"
-                    class="icon icon-card">
-
-                    <img src="assets/icons/icons8-javascript.svg"
-                    alt=""
-                    loading="lazy"
-                    class="icon icon-card">
-                </div>
-
-                <div class="second-set animate__animated animate__pulse">
-                    <img src="assets/icons/icons8-bootstrap.svg"
-                    alt=""
-                    loading="lazy"
-                    class="icon icon-card">
-
-                    <img
-                    src="assets/icons/icons8-react-native.svg"
-                    alt="'"
-                    loading="lazy"
-                    class="icon icon-card">
-
-                    <img src="assets/icons/icons8-git.svg"
-                    alt=""
-                    loading="lazy"
-                    class="icon icon-card">
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects section -->
-        <section class="projects" id="projects">
-      <h2 class="projects-title">Still working on portfolio projects
-        <br>
-        check this
-      </h2>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/photos/drum-front.jpg"
-            alt="yours-truly"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Yours Truly</h3>
-          <p class="project-details">
-            From touring internationally, Like A Version, record labels & endoresments, take a look at the work & achievements i've accomplished
-          </p>
-          <a href="https://en.wikipedia.org/wiki/Yours_Truly_(band)" target="_blank" class="project-link">Check it Out</a>
         </div>
     </section>
 
-        <!-- Social Section -->
-        <div class="socials">
-            <a href="mailto:bradley.cronan@live.com.au" target="_blank">
-                <img
-                src="assets/icons/email2.gif"
-                alt="email"
-                loading="lazy"
-                class="socicon">
-            </a>
-            <a href="https://www.instagram.com/bradley_cronan/" target="_blank">
-                <img
-                src="assets/icons/icons8-instagram.gif"
-                alt="Instagram"
-                loading="lazy"
-                class="socicon">
-            </a>
-            <a href="#" target="_blank">
-                <img
-                src="assets/icons/icons8-linkedin-circled.gif"
-                alt="Linkedin"
-                loading="lazy"
-                class="socicon">
-            </a>
-            <a href="https://github.com/Aleatric" target="_blank">
-                <img src="assets/icons/icons8-github.gif"
-                alt="Github"
-                loading="lazy"
-                class="socicon">
-            </a>
+    <!-- More about -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            I'm studying full-stack development through coding bootcamps (currently, <a
+                href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>), and practical work. freeCodeCamp
+            has given me lots of practical knowledge, and given me the opportunity to learn from professionals in the
+            field, and create amazing projects
+            <br>
+            I'm currently studying a MERN stack, and would like to study other languages, like Java, Python, PHP, C#
+        </p>
+        <p>
+            In my spare time I like to play/write music, practice Brazilian Jiu-Jitsu, and play games.
+        <p>
+            My long term goal with full-stack development, is to be able to write anything, without hesitation.
+        </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
+
+                <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card">
+
+                <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+
+                <img src="assets/icons/icons8-react-native.svg" alt="'" loading="lazy" class="icon icon-card">
+
+                <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card">
+            </div>
         </div>
-        <!-- Scroll to top -->
-        <i class="scroll-up" id="scroll-up">
-            <img
-            src="assets/icons/icons8-upward-arrow.gif"
-            class="socicon up-arrow"
-            alt="scroll-up">
-        </i>
+    </section>
 
-        <!-- Website scripts -->
-        <script src="myscripts.js"></script>
-        <script src="assets/js/app.js"></script>
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Still working on portfolio projects
+            <br>
+            check this
+        </h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/photos/drum-front.jpg" alt="yours-truly" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Yours Truly</h3>
+                <p class="project-details">
+                    From touring internationally, Like A Version, record labels & endoresments, take a look at the work
+                    & achievements i've accomplished
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Yours_Truly_(band)" target="_blank" class="project-link">Check it
+                    Out</a>
+            </div>
+    </section>
 
-        <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    </body>
+    <!-- Social Section -->
+    <div class="socials">
+        <a href="mailto:bradley.cronan@live.com.au" target="_blank">
+            <img src="assets/icons/email2.gif" alt="email" loading="lazy" class="socicon">
+        </a>
+        <a href="https://www.instagram.com/bradley_cronan/" target="_blank">
+            <img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon">
+        </a>
+        <a href="#" target="_blank">
+            <img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon">
+        </a>
+        <a href="https://github.com/Aleatric" target="_blank">
+            <img src="assets/icons/icons8-github.gif" alt="Github" loading="lazy" class="socicon">
+        </a>
+    </div>
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow" alt="scroll-up">
+    </i>
+
+    <!-- Website scripts -->
+    <script src="myscripts.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
