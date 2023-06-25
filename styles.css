@@ -1,21 +1,10 @@
 :root {
-  --variable-name: value;
-}
-
-selector {
-  property: var(--variable-name);
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
-
-/* Variables */
-:root {
   --font-family: "Roboto", sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4a90e2;
+  --bg-color: #444444;
+  --primary-color: #4e75a2;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -24,8 +13,6 @@ selector {
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
-
-/* Variables end */
 
 html {
   scroll-behavior: smooth;
@@ -36,6 +23,11 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: #444444;
 }
 
 ul {
@@ -51,10 +43,6 @@ a:hover {
   color: var(--secondary-color);
 }
 
-body {
-  font-family: var(--font-family);
-}
-
 nav {
   position: sticky;
   top: 0;
@@ -64,8 +52,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1)
+  background-color: #444343;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.05rem;
 }
 
 nav h1 {
@@ -122,18 +111,16 @@ nav ul li {
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
-.bio h1 {
-  margin-bottom: var(--bottom-margin);
-}
-
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  font-size: 1.3rem;
 }
 
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  margin-top: 1em;
 }
 
 .more-about h2 {
@@ -143,36 +130,10 @@ nav ul li {
 
 .more-about p {
   line-height: var(--line-height);
-  padding: 0.4rem;
-}
-
-/* skills */
-.skills {
-  max-width: 68.75rem;
+  max-width: 85%;
   margin: auto;
   text-align: center;
-  margin-top: 2.5rem;
-}
-
-.skill-header {
-  margin-bottom: 1rem;
-}
-
-.skills-wrapper img {
-  padding: 1.25rem;
-}
-
-.icon {
-  width: 11.875rem;
-  height: 11.25rem;
-}
-
-.icon-card {
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
-  padding: 20px;
-  margin: 10px;
+  font-size: 1.27rem;
 }
 
 /* projects */
@@ -217,7 +178,7 @@ nav ul li {
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: #444343;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
@@ -225,11 +186,9 @@ nav ul li {
 }
 
 .socials {
-  display: flex;
-  flex-direction: column;
-  right: 1%;
-  position: fixed;
-  bottom: 50%;
+  display: block;
+  flex-direction: row;
+  margin-left: -70em;
 }
 
 .socicon {
@@ -237,21 +196,9 @@ nav ul li {
   height: 2rem;
 }
 
-.scroll-up {
-  position: fixed;
-  right: 0.5%;
-  bottom: 3%;
-  cursor: pointer;
-}
-
-.up-arrow {
-  width: 3rem;
-  height: 3rem;
-}
-
 @media screen and (max-width: 720px) {
   nav {
-    padding: 1.5rem 1rem;
+    padding: 1rem;
   }
 
   nav ul {
@@ -272,6 +219,7 @@ nav ul li {
 
   .burger-menu {
     display: block;
+    z-index: 2;
   }
 
   nav ul.show {
@@ -285,13 +233,14 @@ nav ul li {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    height: 34rem;
+    width: 23.5rem;
+    padding: 1em;
   }
 
   .bio {
-    margin-top: -7rem;
     width: 20.5rem;
+    padding: 1em;
   }
 
   .more-about {
@@ -312,6 +261,12 @@ nav ul li {
     height: 5.25rem;
   }
 
+  .socials {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
   .projects-container {
     flex-direction: column;
   }
@@ -323,8 +278,9 @@ nav ul li {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 35.5rem;
+    height: 34rem;
     width: 23rem;
+    padding: 1em;
   }
 
   .bio {
@@ -338,5 +294,23 @@ nav ul li {
 
   .contact-form-container {
     max-width: 17.75rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero img {
+    height: 30rem;
+    width: 21rem;
+    padding: 1em;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 0 0 0 3em;
   }
 }
