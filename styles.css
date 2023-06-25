@@ -311,6 +311,6 @@ nav ul li {
     gap: 20px;
     justify-content: space-evenly;
     margin: 0 auto;
-    padding: 0 0 0 3em;
+    padding: 0 0 0 1.4em;
   }
 }
