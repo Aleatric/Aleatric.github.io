@@ -64,6 +64,7 @@ nav {
 
 nav h1 {
   color: var(--primary-color);
+  padding-right: 1rem;
 }
 
 nav a {
@@ -198,11 +199,6 @@ nav ul li {
 .socicon {
   width: 2rem;
   height: 2rem;
-}
-
-nav h1 {
-  color: var(--primary-color);
-  margin-right: 3rem;
 }
 
 @media screen and (max-width: 720px) {
