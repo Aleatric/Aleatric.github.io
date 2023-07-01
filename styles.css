@@ -186,9 +186,9 @@ nav ul li {
 }
 
 .socials {
-  display: block;
+  display: inline-flex;
   flex-direction: row;
-  margin-left: -70em;
+  margin-left: -45em;
 }
 
 .socicon {
