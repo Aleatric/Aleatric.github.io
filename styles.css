@@ -142,6 +142,35 @@ nav ul li {
   font-size: 1.27rem;
 }
 
+.skills {
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  margin-top: 1rem;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills b {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.skills ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.skills li {
+  list-style-type: circle;
+  margin-left: 1rem;
+}
+
+.skills p {
+  line-height: var(--line-height);
+}
+
 /* projects */
 .projects {
   background-color: var(--bg-color);
