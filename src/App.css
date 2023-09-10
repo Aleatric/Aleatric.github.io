@@ -318,14 +318,19 @@ nav ul li {
 }
 
 .project-card {
-  background-color: #fff;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
+  background-color: var(--bg-color);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-top: 10rem;
   max-width: 25rem;
   height: 21rem;
   box-sizing: border-box;
+  transition: box-shadow 0.2s ease-out;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
 .project-buttons {
@@ -409,6 +414,10 @@ nav ul li {
   min-height: 100vh;
   position: relative;
   z-index: 2;
+}
+
+.more-about .ball {
+  opacity: 0.5;
 }
 
 .about-me {
@@ -496,12 +505,11 @@ nav ul li {
 
 .skills ul {
   margin: 0rem;
-  padding-left: 1rem;
 }
 
 .skills li {
   font-size: 1rem;
-  color: #888997;
+  color: #767787;
 }
 
 

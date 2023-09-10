@@ -164,44 +164,70 @@ function About(){
       <div id="second-balls"></div>
       <h2 className="about-me">about me</h2>
       <p>
-          Finishing school in Canberra, I moved to Sydney to study music. I embarked on an international music career,
-          from 2018 - 2022.  I got some big touring credits, and been apart of great festival line ups.
+          Originally hailing from Canberra, I followed my passion for music to Sydney, embarking on an international music career,
+          from 2018 to 2022. I earned some significant touring credits, and played legendary festivals.
           <br />
           <br />
-          I moved to Manchester, UK in 2022. During that time I discovered coding.
+          In 2022, I moved to Manchester, UK, where i stumbled upon the world of coding. What started as a discovery soon became a passion.
           <br />
           <br />
-          I began learning from various different materials, until I came across freeCodeCamp.
-          I followed the course closely, knowing the structure and content would help me grow as a developer.
+          I began my coding journey by exploring various learning materials, but it was freeCodeCamp that truly set me on the path to growth.
+          I completed their courses with a focus on the MERN stack, earning multiple certificates along the way.
+          <br />
+          These projects equipped me with the skills and knowledge needed to excel in web development.
           <br />
           <br />
-          I've since obtained multiple certificates, focusing on the MERN stack.
-          The projects I completed to obtain these, has equipped me with skills and knowledge to excel in web development.
+          Having spent years working and studying in the world of music, I've learned that the journey never truly ends.
           <br />
-          <br />
-          Working and studying in music for so long, you never stop learning. I am excited for all that developing has to teach.
+          Now, I'm excited to embrace all that the world of development has to offer.
       </p>
 
       <div className="skills">
           <b>Languages</b>
           <ul>
-              <li>HTML & CSS</li>
+              <li>HTML</li>
+              <li>CSS</li>
               <li>JavaScript</li>
           </ul>
           <br />
-          <b>Technologies</b>
+          <b>Front-End Frameworks/Libraries</b>
           <ul>
-              <li>React.JS</li>
-              <li>Node.JS</li>
-              <li>MongoDB</li>
-              <li>PSQL</li>
-              <li>Bash</li>
+              <li>React.js</li>
+              <li>Bootstrap</li>
           </ul>
           <br />
-          <b>Others</b>
+          <b>Data Visualization</b>
+          <ul>
+              <li>D3.js</li>
+          </ul>
+          <br />
+          <b>Back-End Development</b>
+          <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+          </ul>
+          <br />
+          <b>Databases</b>
+          <ul>
+              <li>MongoDB</li>
+              <li>PostgreSQL(SQL)</li>
+          </ul>
+          <br />
+          <b>Version Control & Collaboration</b>
           <ul>
               <li>Git & Github</li>
-              <li>NPM</li>
+          </ul>
+          <br />
+          <b>Package Managers</b>
+          <ul>
+              <li>npm</li>
+          </ul>
+          <br />
+          <b>Other Tools & Skills</b>
+          <ul>
+              <li>SASS</li>
+              <li>Redux(React)</li>
+              <li>Mongoose(MongoDB)</li>
           </ul>
       </div>
     </section>
@@ -210,7 +236,7 @@ function About(){
 
 function Contact(){
   return (
-    <div className="contact-me">
+    <div id="contact" className="contact-me">
     <h2>lets connect</h2>
         <div id="contact-icon">
             <a href="mailto:bradley.cronan@live.com.au" target="_blank" class="nav-link">
