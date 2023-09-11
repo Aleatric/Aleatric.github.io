@@ -118,7 +118,7 @@ function Projects(){
     {
       image: choroplethMap,
       title: "Choropleth Map",
-      details: "Interactive data vizualisation. D3.js",
+      details: "United States education data using a choropleth map. Interactive tooltip. D3.js",
       liveLink: "https://codepen.io/Aleatric/pen/WNYMerp",
       githubLink: "https://github.com/Aleatric/choropleth-map/blob/main/README.md",
     },
