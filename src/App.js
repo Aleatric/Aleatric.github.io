@@ -8,7 +8,7 @@ import githubIcon from './assets/icons/github.png';
 import mainPhoto from './assets/photos/me.jpeg';
 import jokeGenerator from './assets/photos/joke-generator.png';
 import markdownPreviewer from './assets/photos/markdown-previewer.png';
-import drumMachine from './assets/photos/drum-machine.png';
+import fileMetadata from './assets/photos/file-metadata.png';
 import pomodoroClock from './assets/photos/pomodoro-clock.png';
 import FloatingBalls from "./FloatingBalls.js";
 
@@ -123,11 +123,11 @@ function Projects(){
       githubLink: "https://github.com/Aleatric/markdownPreviewerUpdate",
     },
     {
-      image: drumMachine,
-      title: "Drum Machine",
-      details: "Drum Machine playable by keys or mouse. React/CSS",
-      liveLink: "https://aleatric.github.io/drumMachine/",
-      githubLink: "https://github.com/Aleatric/drumMachine",
+      image: fileMetadata,
+      title: "File Metadata",
+      details: "Return file uploads metadata in JSON format. Express.js/Node.js",
+      liveLink: "https://boilerplate-project-filemetadata.aleatric.repl.co/",
+      githubLink: "https://github.com/Aleatric/file-metadata",
     },
     {
       image: pomodoroClock,
