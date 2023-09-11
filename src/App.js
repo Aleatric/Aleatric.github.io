@@ -7,7 +7,7 @@ import linkedinIcon from './assets/icons/linkedIn.png';
 import githubIcon from './assets/icons/github.png';
 import mainPhoto from './assets/photos/me.jpeg';
 import jokeGenerator from './assets/photos/joke-generator.png';
-import markdownPreviewer from './assets/photos/markdown-previewer.png';
+import choroplethMap from './assets/photos/choropleth-map.png';
 import fileMetadata from './assets/photos/file-metadata.png';
 import pomodoroClock from './assets/photos/pomodoro-clock.png';
 import FloatingBalls from "./FloatingBalls.js";
@@ -109,18 +109,18 @@ function Hero() {
 function Projects(){
   const projectData = [
     {
-      image: jokeGenerator, // assuming jokeGenerator is a valid import
+      image: jokeGenerator,
       title: "Random Joke Generator",
       details: "Simple web app utilising Joke API. HTML/CSS/JS",
       liveLink: "https://aleatric.github.io/randomJokeGenerator/",
       githubLink: "https://github.com/Aleatric/randomJokeGenerator",
     },
     {
-      image: markdownPreviewer,
-      title: "Markdown Previewer",
-      details: "Preview Markdown Syntax in real time. React, entirely inline CSS",
-      liveLink: "https://aleatric.github.io/markdownPreviewerUpdate/",
-      githubLink: "https://github.com/Aleatric/markdownPreviewerUpdate",
+      image: choroplethMap,
+      title: "Choropleth Map",
+      details: "Interactive data vizualisation. D3.js",
+      liveLink: "https://codepen.io/Aleatric/pen/WNYMerp",
+      githubLink: "https://github.com/Aleatric/choropleth-map/blob/main/README.md",
     },
     {
       image: fileMetadata,
