@@ -197,7 +197,7 @@ nav ul li {
   -webkit-text-fill-color: transparent;
 }
 
-.bio-text span {
+.bio-text div {
   display: block;
   line-height: 0.8em;
   z-index: 2;
