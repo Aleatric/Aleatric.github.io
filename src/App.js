@@ -139,7 +139,7 @@ function Projects(){
   ];
   return (
     <section className="projects" id="projects">
-      <h2 className="projects-title">Projects</h2>
+      <h2 className="projects-title">projects</h2>
       <div className="projects-container">
         {projectData.map((project, index) => (
           <div key={index} className="project-container project-card">
@@ -168,7 +168,7 @@ function About(){
           from 2018 to 2022. I earned some significant touring credits, and played legendary festivals.
           <br />
           <br />
-          In 2022, I moved to Manchester, UK, where i stumbled upon the world of coding. What started as a discovery soon became a passion.
+          In 2022, I moved to Manchester, UK, where I stumbled upon the world of coding. What started as a discovery soon became a passion.
           <br />
           <br />
           I began my coding journey by exploring various learning materials, but it was freeCodeCamp that truly set me on the path to growth.
@@ -237,7 +237,7 @@ function About(){
 function Contact(){
   return (
     <div id="contact" className="contact-me">
-    <h2>lets connect</h2>
+    <h2>let's connect</h2>
         <div id="contact-icon">
             <a href="mailto:bradley.cronan@live.com.au" target="_blank" class="nav-link">
                 <div className="contact-icon-container">
