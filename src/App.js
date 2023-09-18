@@ -148,7 +148,7 @@ function Projects(){
             <p className="project-details">{project.details}</p>
             <div className="project-buttons">
               <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link button">Live Preview</a>
-              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link button">Check on GitHub</a>
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link button">View on GitHub</a>
             </div>
           </div>
         ))}
